@@ -24,7 +24,7 @@ jobs:
           
       - name: Sync with upstream repository
         run: |
-          git remote add upstream https://github.com/gitbruc/package_kernel_r8168
+          git remote add upstream https://github.com/sbwml/package_kernel_r8168
           git fetch upstream
           git merge upstream/master
           git push
